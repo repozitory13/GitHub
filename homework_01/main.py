@@ -41,7 +41,7 @@ def filter_numbers(num, filter_type):
     else:
         pass
     if filter_type == PRIME:
-        returnlist(([nums for nums in num if is_prime(nums)]))
+        return(list([nums for nums in num if is_prime(nums)]))
     else:
         pass
     """
