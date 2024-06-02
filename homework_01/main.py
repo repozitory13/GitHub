@@ -5,7 +5,7 @@
 
 
 def power_numbers():
-    return ([nums ** 2 for nums in num])
+    return(list([nums ** 2 for nums in num]))
     """
     функция, которая принимает N целых чисел,
     и возвращает список квадратов этих чисел
@@ -33,15 +33,15 @@ def is_prime(nums):
 
 def filter_numbers(num, filter_type):
     if filter_type==ODD:
-        return(filter(lambda nums: nums % 2, num))
+        return(list(filter(lambda nums: nums % 2, num)))
     else:
         pass
     if filter_type==EVEN:
-        return(filter(lambda nums: not nums % 2, num))
+        return(list(filter(lambda nums: not nums % 2, num)))
     else:
         pass
     if filter_type == PRIME:
-        return([nums for nums in num if is_prime(nums)])
+        returnlist(([nums for nums in num if is_prime(nums)]))
     else:
         pass
     """
