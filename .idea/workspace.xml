@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b3209-3119-405b-8bbb-0ef3f45fa672" name="Changes" comment="norm">
-      <change afterPath="$PROJECT_DIR$/DZ/homework_01/dz.py" afterDir="false" />
-    </list>
+    <list default="true" id="828b3209-3119-405b-8bbb-0ef3f45fa672" name="Changes" comment="Homework_01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,16 +21,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "history": [
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
     {
-      "assignee": "repozitory13"
+      &quot;assignee&quot;: &quot;repozitory13&quot;
     }
   ],
-  "lastFilter": {
-    "assignee": "repozitory13"
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;repozitory13&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -94,7 +92,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717331454357</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="norm">
+      <option name="closed" value="true" />
+      <created>1717332219232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1717332219232</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1717332498001</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1717332498001</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="norm" />
-    <option name="LAST_COMMIT_MESSAGE" value="norm" />
+    <MESSAGE value="Homework_01" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework_01" />
   </component>
 </project>
