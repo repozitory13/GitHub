@@ -6,7 +6,6 @@
 
 def power_numbers(*num):
     return list([nums ** 2 for nums in num])
-
     """
     функция, которая принимает N целых чисел,
     и возвращает список квадратов этих чисел
@@ -20,17 +19,19 @@ ODD = "odd"
 EVEN = "even"
 PRIME = "prime"
 
+
 def is_prime(nums):
     if nums <= 1:
         return False
     k = 0
     for i in range(2, nums // 2 + 1):
-        if (nums % i == 0):
-             k = k+1
+        if nums % i == 0:
+            k = k+1
     if k <= 0:
         return True
     else:
-         return False
+        return False
+
 
 def filter_numbers(num, filter_type):
     if filter_type == ODD:
