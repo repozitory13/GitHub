@@ -35,15 +35,15 @@ def is_prime(nums):
 
 def filter_numbers(num, filter_type):
     if filter_type == ODD:
-        return list(filter(lambda nums: nums % 2, num))
+        return filter(lambda nums: nums % 2, num)
     else:
         pass
     if filter_type == EVEN:
-        return list(filter(lambda nums: not nums % 2, num))
+        return filter(lambda nums: not nums % 2, num)
     else:
         pass
     if filter_type == PRIME:
-        return list([nums for nums in num if is_prime(nums)])
+        return [nums for nums in num if is_prime(nums)]
     else:
         pass
     """
