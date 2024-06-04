@@ -35,17 +35,11 @@ def is_prime(nums):
 
 def filter_numbers(num, filter_type):
     if filter_type == ODD:
-        return filter(lambda nums: nums % 2, num)
-    else:
-        pass
+        return list(filter(lambda nums: nums % 2, num))
     if filter_type == EVEN:
-        return filter(lambda nums: not nums % 2, num)
-    else:
-        pass
+        return list(filter(lambda nums: not nums % 2, num))
     if filter_type == PRIME:
-        return [nums for nums in num if is_prime(nums)]
-    else:
-        pass
+        return list([nums for nums in num if is_prime(nums)])
     """
     функция, которая на вход принимает список из целых чисел,
     и возвращает только чётные/нечётные/простые числа
