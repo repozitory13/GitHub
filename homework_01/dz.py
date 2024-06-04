@@ -37,6 +37,6 @@ def filter_numbers(num, filter_type):
         pass
 
 
-filter_numbers([1, 2, 3], ODD)
-filter_numbers([2, 3, 4, 5], EVEN)
-filter_numbers([1, 9, 11, 2, 6, 9, 27, 23], PRIME)
+#filter_numbers([1, 2, 3], ODD)
+#filter_numbers([2, 3, 4, 5], EVEN)
+#filter_numbers([1, 9, 11, 2, 6, 9, 27, 23], PRIME)
