@@ -36,9 +36,9 @@ def is_prime(nums):
 def filter_numbers(numbers, filter_type):
     if filter_type == ODD:
         return list(filter(lambda nums: nums % 2, numbers))
-    if filter_type == EVEN:
+    elif filter_type == EVEN:
         return list(filter(lambda nums: not nums % 2, numbers))
-    if filter_type == PRIME:
+    elif filter_type == PRIME:
         return list([nums for nums in numbers if is_prime(nums)])
     """
     функция, которая на вход принимает список из целых чисел,

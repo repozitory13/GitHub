@@ -25,18 +25,15 @@ def is_prime(nums):
 def filter_numbers(num, filter_type):
     if filter_type == ODD:
         print(list(filter(lambda nums: nums % 2, num)))
-    else:
-        pass
-    if filter_type == EVEN:
+    elif filter_type == EVEN:
         print(list(filter(lambda nums: not nums % 2, num)))
-    else:
-        pass
-    if filter_type == PRIME:
+    elif filter_type == PRIME:
         print(list([nums for nums in num if is_prime(nums)]))
     else:
         pass
 
 
-#filter_numbers([1, 2, 3], ODD)
-#filter_numbers([2, 3, 4, 5], EVEN)
-#filter_numbers([1, 9, 11, 2, 6, 9, 27, 23], PRIME)
+filter_numbers([1, 2, 3], ODD)
+
+filter_numbers([2, 3, 4, 5], EVEN)
+filter_numbers([1, 9, 11, 2, 6, 9, 27, 23], PRIME)
