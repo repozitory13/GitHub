@@ -20,7 +20,6 @@ class Vehicle(ABC):
         try:
             if Vehicle.started is False and res.fuel > 0:
                 Vehicle.started = True
-                return Vehicle.started
             elif res.fuel <= 0:
                 raise LowFuelError("LowFuelError")
         except LowFuelError as e:
