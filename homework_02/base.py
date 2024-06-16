@@ -5,10 +5,10 @@ from homework_02.exceptions import CargoOverload
 
 
 class Vehicle(ABC):
-    weight = None
+    weight = 0
     started = False
-    fuel = None
-    fuel_consumption = None
+    fuel = 0
+    fuel_consumption = 0
 
     def __init__(self, weight, fuel, fuel_consumption):
         self.weight = weight
@@ -18,9 +18,9 @@ class Vehicle(ABC):
     @staticmethod
     def start():
         try:
-            if Vehicle.started is False and res.fuel > 0:
+            if Vehicle.started is False and Vehicle.fuel > 0:
                 Vehicle.started = True
-            elif res.fuel <= 0:
+            elif Vehicle.fuel <= 0:
                 raise LowFuelError("LowFuelError")
         except LowFuelError as e:
             print(e)
