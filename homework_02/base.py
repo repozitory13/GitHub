@@ -18,8 +18,8 @@ class Vehicle(ABC):
     @staticmethod
     def start():
         try:
-            if Vehicle.started != 1 and res.fuel > 0:
-                Vehicle.started += 1
+            if Vehicle.started is False and res.fuel > 0:
+                Vehicle.started = True
                 return Vehicle.started
             elif res.fuel <= 0:
                 raise LowFuelError("LowFuelError")
