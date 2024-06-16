@@ -15,12 +15,12 @@ class Vehicle(ABC):
         self.fuel = fuel
         self.fuel_consumption = fuel_consumption
 
-    def start(self):
-        started = self.started
+    @staticmethod
+    def start():
         try:
-            if started != 1 and res.fuel > 0:
-                started += 1
-                return started
+            if Vehicle.started != 1 and res.fuel > 0:
+                Vehicle.started += 1
+                return Vehicle.started
             elif res.fuel <= 0:
                 raise LowFuelError("LowFuelError")
         except LowFuelError as e:
