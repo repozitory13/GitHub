@@ -6,7 +6,7 @@ from homework_02.exceptions import CargoOverload
 
 class Vehicle(ABC):
     weight = None
-    started = 0
+    started = False
     fuel = None
     fuel_consumption = None
 
