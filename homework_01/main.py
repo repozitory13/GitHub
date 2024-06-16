@@ -3,7 +3,6 @@
 Функции и структуры данных
 """
 
-
 def power_numbers(*num):
     return list([nums ** 2 for nums in num])
     """
