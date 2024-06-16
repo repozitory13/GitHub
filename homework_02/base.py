@@ -17,7 +17,6 @@ class Vehicle(ABC):
 
     @staticmethod
     def start():
-        print(Vehicle.started)
         try:
             if Vehicle.started != 1 and res.fuel > 0:
                 Vehicle.started += 1
