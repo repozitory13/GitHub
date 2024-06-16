@@ -28,15 +28,15 @@ class Vehicle(ABC):
     @staticmethod
     def move(dist):
         try:
-            if res.fuel // (res.fuel_consumption * dist) >= 1:
-                return res.fuel - (res.fuel_consumption * dist)
-            elif res.fuel - (res.fuel_consumption * dist) < 0:
+            if Vehicle.fuel // (Vehicle.fuel_consumption * dist) >= 1:
+                return Vehicle.fuel - (Vehicle.fuel_consumption * dist)
+            elif Vehicle.fuel - (Vehicle.fuel_consumption * dist) < 0:
                 raise NotEnoughFuel("NotEnoughFuel")
         except NotEnoughFuel as e:
             print(e)
 
 
-res = Vehicle(30, 50, 10)
+#res = Vehicle(30, 50, 10)
 #Vehicle.start(1)
 #print(res.fuel)
-print(res.move(3))
+#print(res.move(3))
