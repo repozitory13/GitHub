@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="828b3209-3119-405b-8bbb-0ef3f45fa672" name="Changes" comment="Homework_01">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-    </list>
+    <list default="true" id="828b3209-3119-405b-8bbb-0ef3f45fa672" name="Changes" comment="Homework_01" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -310,7 +308,111 @@
       <option name="project" value="LOCAL" />
       <updated>1718552579287</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718554550854</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1718554550854</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718554793664</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1718554793664</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718554875269</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1718554875269</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718555070337</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555070337</updated>
+    </task>
+    <task id="LOCAL-00035" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718555251410</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555251410</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718555517479</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555517479</updated>
+    </task>
+    <task id="LOCAL-00037" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718555706186</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555706186</updated>
+    </task>
+    <task id="LOCAL-00038" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718555977096</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1718555977096</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718556453456</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1718556453456</updated>
+    </task>
+    <task id="LOCAL-00040" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718556908130</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1718556908130</updated>
+    </task>
+    <task id="LOCAL-00041" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718557051413</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1718557051413</updated>
+    </task>
+    <task id="LOCAL-00042" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718730836762</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1718730836762</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718731024056</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1718731024056</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
