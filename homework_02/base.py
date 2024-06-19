@@ -26,21 +26,14 @@ class Vehicle(ABC):
             elif Vehicle.fuel <= 0:
                 raise LowFuelError("LowFuelError")
         except LowFuelError as e:
-            print(e)
+            return e
 
     @staticmethod
-    def move(dist):
+    def move(distance):
         try:
-            if Vehicle.fuel // (Vehicle.fuel_consumption * dist) >= 1:
-                return Vehicle.fuel - (Vehicle.fuel_consumption * dist)
-            elif Vehicle.fuel - (Vehicle.fuel_consumption * dist) < 0:
+            if Vehicle.fuel - Vehicle.fuel_consumption * distance >= 0:
+                Vehicle.fuel = Vehicle.fuel - distance * Vehicle.fuel_consumption
+            elif Vehicle.fuel - (Vehicle.fuel_consumption * distance) == 0:
                 raise NotEnoughFuel("NotEnoughFuel")
-        except NotEnoughFuel as e:
-            print(e)
-
-
-#res = Vehicle(30, 50, 10)
-# #Vehicle.start(1)
-#print(res.fuel)
-#print(res.move(3))
-#Vehicle.start()
+        except Exception as e:
+            return e
