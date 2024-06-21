@@ -20,15 +20,13 @@ class Vehicle(ABC):
 
     @staticmethod
     def start():
-        while Vehicle.fuel is not 0:
+        while Vehicle.fuel != 0:
             Vehicle.started = True
             break
         else:
             Vehicle.fuel = 0
             Vehicle.started = False
             raise LowFuelError("LowFuelError")
-
-
 
     @staticmethod
     def move(distance):
