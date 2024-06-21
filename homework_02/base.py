@@ -4,42 +4,28 @@ from homework_02.exceptions import LowFuelError
 
 
 class Vehicle(ABC):
-    weight = 0
-    started = False
-    fuel = 0
-    fuel_consumption = 0
+    weight: int
+    started: bool
+    fuel: int
+    fuel_consumption: int
 
-    def __init__(self, weight, fuel, fuel_consumption):
+    def __init__(self, weight=0, fuel=0, fuel_consumption=0):
         self.weight = weight
         self.fuel = fuel
         self.fuel_consumption = fuel_consumption
-        Vehicle.weight = weight
-        Vehicle.fuel = fuel
-        Vehicle.fuel_consumption = fuel_consumption
-        Vehicle.started = False
+        self.started = False
 
-    @staticmethod
-    def start():
-        while Vehicle.fuel != 0:
-            Vehicle.started = True
+    def start(self):
+        while (self.started is False or True) and self.fuel > 0:
+            self.started = True
             break
         else:
-            Vehicle.fuel = 0
-            Vehicle.started = False
             raise LowFuelError("LowFuelError")
 
-    @staticmethod
-    def move(distance):
-        if Vehicle.fuel - Vehicle.fuel_consumption * distance >= 0:
-            xxx = Vehicle.fuel - distance * Vehicle.fuel_consumption
-            Vehicle.fuel = xxx
-        elif Vehicle.fuel - (Vehicle.fuel_consumption * distance) == 0:
+    def move(self, distance):
+        if self.fuel - self.fuel_consumption * distance >= 0:
+            xxx = self.fuel - distance * self.fuel_consumption
+            self.fuel = xxx
+            return self.fuel
+        elif self.fuel - (self.fuel_consumption * distance) <= 0:
             raise NotEnoughFuel("NotEnoughFuel")
-
-#res = Vehicle(20, 0, 40)
-#res.start()
-#print(Vehicle.started)
-
-
-if __name__ == "__main__":
-    Vehicle.start()
