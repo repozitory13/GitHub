@@ -14,6 +14,7 @@ class Plane(Vehicle):
         self.max_cargo = max_cargo
         Plane.max_cargo = max_cargo
         Plane.cargo = 0
+        Vehicle.started = False
 
     @staticmethod
     def load_cargo(load):

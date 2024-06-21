@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828b3209-3119-405b-8bbb-0ef3f45fa672" name="Changes" comment="Homework_01">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_02/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_02/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/homework_02/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_02/car.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/homework_02/plane.py" beforeDir="false" afterPath="$PROJECT_DIR$/homework_02/plane.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -425,7 +422,31 @@
       <option name="project" value="LOCAL" />
       <updated>1718922944123</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718972646017</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1718972646017</updated>
+    </task>
+    <task id="LOCAL-00046" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718972764065</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1718972764065</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Homework_01">
+      <option name="closed" value="true" />
+      <created>1718973004899</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1718973004899</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

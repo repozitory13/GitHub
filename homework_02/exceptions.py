@@ -1,8 +1,8 @@
 """
 Объявите следующие исключения:
-- LowFuelError 'вызывается когда мало топлива'
-- NotEnoughFuel 'вызывается, когда топливо закончилось'
-- CargoOverload 'вызывается при перегрузке'
+- LowFuelError
+- NotEnoughFuel
+- CargoOverload
 """
 
 
