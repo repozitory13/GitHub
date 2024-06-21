@@ -32,3 +32,4 @@ class Plane(Vehicle):
 
 if __name__ == "__main__":
     Plane.remove_all_cargo()
+    Plane.load_cargo(load=0)

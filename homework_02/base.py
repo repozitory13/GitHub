@@ -1,6 +1,6 @@
 from abc import ABC
-from homework_02.exceptions import LowFuelError
 from homework_02.exceptions import NotEnoughFuel
+from homework_02.exceptions import LowFuelError
 
 
 class Vehicle(ABC):
@@ -20,21 +20,28 @@ class Vehicle(ABC):
 
     @staticmethod
     def start():
-        if Vehicle.started is False and Vehicle.fuel > 0:
+        while Vehicle.fuel is not 0:
             Vehicle.started = True
-        elif Vehicle.fuel <= 0:
+            break
+        else:
+            Vehicle.fuel = 0
+            Vehicle.started = False
             raise LowFuelError("LowFuelError")
-
-
 
 
 
     @staticmethod
     def move(distance):
-        try:
-            if Vehicle.fuel - Vehicle.fuel_consumption * distance >= 0:
-                Vehicle.fuel = Vehicle.fuel - distance * Vehicle.fuel_consumption
-            elif Vehicle.fuel - (Vehicle.fuel_consumption * distance) == 0:
-                raise NotEnoughFuel("NotEnoughFuel")
-        except Exception as e:
-            return e
+        if Vehicle.fuel - Vehicle.fuel_consumption * distance >= 0:
+            xxx = Vehicle.fuel - distance * Vehicle.fuel_consumption
+            Vehicle.fuel = xxx
+        elif Vehicle.fuel - (Vehicle.fuel_consumption * distance) == 0:
+            raise NotEnoughFuel("NotEnoughFuel")
+
+#res = Vehicle(20, 0, 40)
+#res.start()
+#print(Vehicle.started)
+
+
+if __name__ == "__main__":
+    Vehicle.start()

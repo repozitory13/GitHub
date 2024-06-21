@@ -2,14 +2,16 @@
 создайте класс `Car`, наследник `Vehicle`
 """
 from homework_02.base import Vehicle
-from homework_02.engine import Engine
-from homework_02 import engine
 
 
 class Car(Vehicle):
     engine: int
 #    Engine(0, 0)
 
-    def set_engine(self, zzz):
-        self.zzz = zzz
+    @staticmethod
+    def set_engine(zzz):
         Car.engine = zzz
+
+
+if __name__ == "__main__":
+    Car.set_engine(zzz=0)
